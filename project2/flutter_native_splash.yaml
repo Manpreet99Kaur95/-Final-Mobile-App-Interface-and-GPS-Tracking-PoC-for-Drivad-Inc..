@@ -1,0 +1,30 @@
+flutter_native_splash:
+  # Background color (white or your brand color)
+  color: "#FFFFFF"
+  
+  # Background color for dark mode (optional)
+  color_dark: "#1A1A1A"
+  
+  # Your logo
+  image: assets/images/Splash.png
+  
+  # Dark mode logo (optional - if you have a different version for dark mode)
+  # image_dark: assets/images/splash_logo_dark.png
+  
+  # Android 12+ specific settings (required for newer Android versions)
+  android_12:
+    image: assets/images/Splash.png
+    icon_background_color: "#FFFFFF"
+    # icon_background_color_dark: "#1A1A1A"
+  
+  # iOS specific
+  ios: true
+  
+  # Android specific
+  android: true
+  
+  # Full screen (hides status bar during splash)
+  fullscreen: true
+  
+  # Web (if you ever deploy to web)
+  web: false
